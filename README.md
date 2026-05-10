@@ -13,6 +13,9 @@
 | 推理速度 | GPU ~30 FPS，CPU ~5 FPS |
 | 支持平台 | Linux (推荐) / Windows / macOS |
 
+
+<img width="360" height="580" alt="251d0fa709382a98c95d218c02603cb0" src="https://github.com/user-attachments/assets/c668f72a-444e-4e2c-a53b-6d08dc5dbd65" />
+
 ---
 
 ## 🗂️ 项目结构
