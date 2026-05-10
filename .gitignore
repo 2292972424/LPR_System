@@ -1,0 +1,60 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ==================== 虚拟环境 ====================
+venv/
+.venv/
+env/
+lpr_env/
+*.env
+
+# ==================== 模型权重 (太大，不放 Git) ====================
+models/weights/*.pt
+models/weights/*.pth
+models/weights/*.onnx
+!.gitkeep
+
+# ==================== 数据集 ====================
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ==================== 输出 ====================
+outputs/
+batch_results/
+*.jpg
+*.png
+!docs/*.jpg
+!docs/*.png
+
+# ==================== IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================== Jupyter ====================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==================== 系统 ====================
+.DS_Store
+Thumbs.db
+
+# ==================== 日志 ====================
+*.log
+runs/
+wandb/
+
+# ==================== 密钥 ====================
+.env
+*.key
+*.pem
